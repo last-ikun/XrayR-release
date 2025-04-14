@@ -5,117 +5,24 @@
     "settings": {}
   },
   {
+    "tag": "IPv6_out",
+    "protocol": "freedom",
+    "settings": {}
+  },
+  {
     "protocol": "blackhole",
     "tag": "block"
   },
   {
-    "tag": "hk1",
+    "tag": "tw01",
     "protocol": "shadowsocks",
     "settings": {
       "servers": [
         {
-          "address": "141.91.75.233",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10001
-        }
-      ]
-    }
-  },
-  {
-    "tag": "tw1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "61.124.127.25",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10003
-        }
-      ]
-    }
-  },
-  {
-    "tag": "jp1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "212.17.195.238",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10003
-        }
-      ]
-    }
-  },
-  {
-    "tag": "sg1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "154.11.47.139",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10003
-        }
-      ]
-    }
-  },
-  {
-    "tag": "kr1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "141.56.96.109",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 50053
-        }
-      ]
-    }
-  },
-  {
-    "tag": "us1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "23.241.137.34",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10001
-        }
-      ]
-    }
-  },
-  {
-    "tag": "my1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "103.121.239.214",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10001
-        }
-      ]
-    }
-  },
-  {
-    "tag": "ua1",
-    "protocol": "shadowsocks",
-    "settings": {
-      "servers": [
-        {
-          "address": "92.111.231.47",
-          "method": "aes-128-gcm",
-          "password": "e7c42a89-8153-4cb4-bf7c-0a113d2ac6d7",
-          "port": 10001
+          "address": "yd-05.paofunlink.com",
+          "method": "chacha20-ietf",
+          "password": "bxsnucrgk6hfish",
+          "port": 1070
         }
       ]
     }

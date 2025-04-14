@@ -1,5 +1,5 @@
 Log:
-  Level: warning # Log level: none, error, warning, info, debug 
+  Level: warning # Log level: none, error, warning, info, debug
   AccessPath: # /etc/XrayR/access.Log
   ErrorPath: # /etc/XrayR/error.log
 DnsConfigPath: # /etc/XrayR/dns.json # Path to dns config, check https://xtls.github.io/config/dns.html for help
@@ -13,13 +13,12 @@ ConnectionConfig:
   DownlinkOnly: 4 # Time limit when the connection is closed after the uplink is closed, Second
   BufferSize: 64 # The internal cache size of each connection, kB
 Nodes:
-  -
-    PanelType: "SSpanel" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
+  - PanelType: "NewV2board" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
-      ApiHost: "http://127.0.0.1:667"
-      ApiKey: "123"
-      NodeID: 41
-      NodeType: V2ray # Node type: V2ray, Vmess, Vless, Shadowsocks, Trojan, Shadowsocks-Plugin
+      ApiHost: "https://yun-ti.life"
+      ApiKey: "ERSU9khhluWjE57vRJDwCtPpdR"
+      NodeID: 2
+      NodeType: Shadowsocks # Node type: V2ray, Vmess, Vless, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan
@@ -46,9 +45,8 @@ Nodes:
         Timeout: 5 # Timeout for redis request
         Expiry: 60 # Expiry time (second)
       EnableFallback: false # Only support for Trojan and Vless
-      FallBackConfigs:  # Support multiple fallbacks
-        -
-          SNI: # TLS SNI(Server Name Indication), Empty for any
+      FallBackConfigs: # Support multiple fallbacks
+        - SNI: # TLS SNI(Server Name Indication), Empty for any
           Alpn: # Alpn, Empty for any
           Path: # HTTP PATH, Empty for any
           Dest: 80 # Required, Destination of fallback, check https://xtls.github.io/config/features/fallback.html for details.

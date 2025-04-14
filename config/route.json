@@ -3,43 +3,28 @@
   "rules": [
     {
       "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30000"],
-      "outboundTag": "hk1"
+      "outboundTag": "block",
+      "ip": ["geoip:private"]
     },
     {
       "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30001"],
-      "outboundTag": "tw1"
+      "outboundTag": "block",
+      "protocol": ["bittorrent"]
     },
     {
       "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30002"],
-      "outboundTag": "jp1"
+      "inboundTag": ["Shadowsocks_0.0.0.0_8043"],
+      "outboundTag": "tw01"
     },
     {
       "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30003"],
-      "outboundTag": "sg1"
+      "outboundTag": "IPv6_out",
+      "domains": ["geosite:netflix"]
     },
     {
       "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30004"],
-      "outboundTag": "kr1"
-    },
-    {
-      "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30005"],
-      "outboundTag": "us1"
-    },
-    {
-      "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30006"],
-      "outboundTag": "my1"
-    },
-    {
-      "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_30007"],
-      "outboundTag": "ua1"
+      "outboundTag": "IPv4_out",
+      "network": "udp,tcp"
     }
   ]
 }
