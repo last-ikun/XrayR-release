@@ -20,7 +20,7 @@
       "servers": [
         {
           "address": "yd-05.paofunlink.com",
-          "method": "chacha20-ietf",
+          "method": "chacha20-ietf-poly1305",
           "password": "bxsnucrgk6hfish",
           "port": 1070
         }
