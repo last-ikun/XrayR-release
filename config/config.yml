@@ -16,7 +16,7 @@ Nodes:
   - PanelType: "NewV2board" # Panel type: SSpanel, V2board, NewV2board, PMpanel, Proxypanel, V2RaySocks
     ApiConfig:
       ApiHost: "https://yun-ti.life"
-      ApiKey: "ERSU9khhluWjE57vRJDwCtPpdR"
+      ApiKey: "OpaO7sJw8VuIrvP44S78"
       NodeID: 2
       NodeType: Shadowsocks # Node type: V2ray, Vmess, Vless, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
