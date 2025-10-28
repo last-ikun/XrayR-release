@@ -17,8 +17,8 @@ Nodes:
     ApiConfig:
       ApiHost: "https://yun-ti.life"
       ApiKey: "OpaO7sJw8VuIrvP44S78"
-      NodeID: 2
-      NodeType: Shadowsocks # Node type: V2ray, Vmess, Vless, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeID: 1
+      NodeType: Vmess # Node type: V2ray, Vmess, Vless, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan

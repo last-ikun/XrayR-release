@@ -14,17 +14,16 @@
     "tag": "block"
   },
   {
-    "tag": "tw01",
-    "protocol": "shadowsocks",
+    "tag": "jp_v1_01",
+    "protocol": "vmess",
     "settings": {
-      "servers": [
-        {
-          "address": "yd-05.paofunlink.com",
-          "method": "chacha20-ietf-poly1305",
-          "password": "bxsnucrgk6hfish",
-          "port": 1070
-        }
-      ]
+      "address": "twosh.rscazvdbfpbyzqdvpy1m.com",
+      "port": 11034,
+      "id": "7fbc37aa-befc-3cac-8f8f-85c8e130a863",
+      "security": "auto",
+      "alterId": 0,
+      "level": 0,
+      "experiments": ""
     }
   }
 ]

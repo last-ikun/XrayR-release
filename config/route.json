@@ -13,8 +13,8 @@
     },
     {
       "type": "field",
-      "inboundTag": ["Shadowsocks_0.0.0.0_8430"],
-      "outboundTag": "tw01"
+      "inboundTag": ["Vmess_0.0.0.0_11034"],
+      "outboundTag": "jp_v1_01"
     },
     {
       "type": "field",
